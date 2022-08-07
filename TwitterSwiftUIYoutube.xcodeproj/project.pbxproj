@@ -43,6 +43,7 @@
 		1BE0257E287F2EA7004C0B7D /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0257D287F2EA7004C0B7D /* AuthHeaderView.swift */; };
 		1BE39A9E285391BE0030C1CB /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE39A9D285391BE0030C1CB /* TweetRowView.swift */; };
 		1BE39AA4285392520030C1CB /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE39AA3285392520030C1CB /* FeedView.swift */; };
+		1BF7579828A002CC00AFEE9A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7579728A002CC00AFEE9A /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		1BE0257D287F2EA7004C0B7D /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		1BE39A9D285391BE0030C1CB /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 		1BE39AA3285392520030C1CB /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		1BF7579728A002CC00AFEE9A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				1B0FA19E288F946300F294E7 /* ImageUploader.swift */,
+				1BF7579728A002CC00AFEE9A /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 			files = (
 				1B59B804285CCC0700C401C7 /* MessagesView.swift in Sources */,
 				1B59B808285DD1AE00C401C7 /* ProfileView.swift in Sources */,
+				1BF7579828A002CC00AFEE9A /* UserService.swift in Sources */,
 				1BE39AA4285392520030C1CB /* FeedView.swift in Sources */,
 				1B59B81628617E1E00C401C7 /* SideMenuOptionRowView.swift in Sources */,
 				1BE0257B287F2C8B004C0B7D /* CustomInputField.swift in Sources */,
